@@ -1,1 +1,9 @@
+.btn{
+	background-color: #000;
+	color: #fff;
+	border-radius: 5px;
+}
 
+.carousel-indicators li{
+	background-color: #ffcc33;
+}
