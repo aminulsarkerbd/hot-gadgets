@@ -1,9 +1,51 @@
-.btn{
-	background-color: #000;
-	color: #fff;
-	border-radius: 5px;
+body {
+    font-family: 'Roboto';
 }
 
-.carousel-indicators li{
-	background-color: #ffcc33;
+.margin-btm {
+    margin-bottom: 50px;
+}
+
+.car-bg {
+    background-image: url("images/carousel-bg.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 480px;
+}
+
+.btn {
+    background-color: #000;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #fff;
+    color: #000;
+    font-weight: bold;
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+
+.carousel-indicators li {
+    background-color: #fc3;
+}
+
+.see-all {
+    color: #fc3;
+}
+
+.see-all:hover {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.card {
+    -webkit-box-shadow: 0 5px 10px lightgray;
+    box-shadow: 0 5px 10px lightgray;
+    border-radius: 10px;
+}
+
+.card-body {
+    text-align: center;
 }
